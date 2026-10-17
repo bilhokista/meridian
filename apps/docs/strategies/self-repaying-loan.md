@@ -97,7 +97,7 @@ JavaScript numbers.
 Put together, the LTV levels must sit in this order:
 
 ```text
-openingLoanToValue <= deleverageTargetLtv < liquidationThreshold - deleverageBuffer < liquidationThreshold <= 1
+openingLoanToValue <= deleverageTargetLtv < liquidationThreshold - deleverageBuffer <= liquidationThreshold <= 1
 ```
 
 A conservative starting point is an `openingLoanToValue` well below the
